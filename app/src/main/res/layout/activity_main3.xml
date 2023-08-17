@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity3">
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="역광의 현구님을 찾으러 가보자"
+        android:layout_margin="30dp"
+        android:text="그의 얼굴의 빛은 후광인가 역광인가 그냥 까만 것 인가..?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 </LinearLayout>
