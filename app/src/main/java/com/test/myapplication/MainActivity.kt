@@ -28,6 +28,9 @@ class MainActivity : AppCompatActivity() {
                     startActivity(mainActivity3Intent)
                 }
             }
+            moveActivity2.setOnClickListener {
+                startActivity(Intent(this@MainActivity,MainActivity2::class.java))
+            }
         }
     }
 }

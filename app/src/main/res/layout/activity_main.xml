@@ -25,5 +25,9 @@
         android:layout_height="wrap_content"
         android:text="역광의 현구님을 찾으러 가보자"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
+    <Button
+        android:id="@+id/moveActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout>
