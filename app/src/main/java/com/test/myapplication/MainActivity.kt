@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
         installSplashScreen()
 
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
@@ -20,6 +19,9 @@ class MainActivity : AppCompatActivity() {
 
 
         activityMainBinding.run {
+            buttonMainChangeTextView.setOnClickListener {
+                textViewMainShowText.setText("Hello World!가 아닌 Hell World!")
+            }
             button.run {
                 setOnClickListener {
                     val mainActivity3Intent = Intent(this@MainActivity, MainActivity3::class.java)
