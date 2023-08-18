@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.run {
             buttonMainChangeTextView.setOnClickListener {
                 textViewMainShowText.setText("Hello World!가 아닌 Hell World!")
+
             }
             button.run {
                 setOnClickListener {
@@ -30,6 +31,11 @@ class MainActivity : AppCompatActivity() {
             }
             moveActivity2.setOnClickListener {
                 startActivity(Intent(this@MainActivity,MainActivity2::class.java))
+            }
+            button2.run {
+                setOnClickListener {
+                    activityMainBinding.textView.text = "버튼"
+                }
             }
         }
     }
