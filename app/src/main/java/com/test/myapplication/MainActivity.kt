@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.run {
             buttonMainChangeTextView.setOnClickListener {
                 textViewMainShowText.setText("Hello World!가 아닌 Hell World!")
+
             }
             button.run {
                 setOnClickListener {
