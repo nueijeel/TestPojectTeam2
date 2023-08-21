@@ -14,4 +14,12 @@
         android:layout_margin="30dp"
         android:text="그의 얼굴의 빛은 후광인가 역광인가 그냥 까만 것 인가..?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="그의 얼굴의 빛은 후광인가 역광인가 그냥 노란 것 인가..?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 </LinearLayout>
